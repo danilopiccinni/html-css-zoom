@@ -30,6 +30,7 @@
 }
 
 .video2 {
+    position: relative;
 
     height: calc(100% / 5 );
     width: calc(100% / 7 - 20px);
@@ -168,4 +169,12 @@ div.bottonesingolo:hover {
 
 .share i {
     color: green;
+}
+
+.video2 div {
+    color: white;
+    font-size: small;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
 }

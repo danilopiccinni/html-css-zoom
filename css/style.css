@@ -78,7 +78,7 @@
     gap:10px;
 }
 
-div.bottonesingolo {
+div.bottonesingolo{
 
     display: flex;
     flex-direction: column;
@@ -89,6 +89,10 @@ div.bottonesingolo {
     padding: 5px;
     font-size: small;
 
+    color: rgb(183, 183, 183);
+}
+
+.player i {
     color: rgb(183, 183, 183);
 }
 
@@ -161,3 +165,7 @@ div.bottonesingolo:hover {
 }
 /* dettaglii */
 /* ------------------------------------------ */
+
+.share i {
+    color: green;
+}
